@@ -2,9 +2,7 @@
 
 Шаблон приложения для ОС Аврора с использованием UI фреймворка [slint](https://slint.dev).
 
-## Зависимости / Dependencies
-
-Следующие зависимости необходимы для сборки и успешного запуска приложения на устройстве.
+## Зависимости для сборки
 
 - [Aurora PSDK](https://developer.auroraos.ru/doc/sdk/psdk)
 - [cross-rs](https://github.com/cross-rs/cross)
