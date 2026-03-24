@@ -1,6 +1,6 @@
 [template]
 cargo_generate_version = ">=0.9.0"
-exclude = ["target/", "Cargo.lock", "rpm/icons"]
+exclude = ["target/", "Cargo.lock", "rpm/icons", "rpm/lib"]
 
 [placeholders]
 org_domain = { type = "string", prompt = "Enter your reversed org domain (for example 'org.test')" }
