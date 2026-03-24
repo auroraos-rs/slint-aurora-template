@@ -9,5 +9,5 @@ license = { type = "string", prompt = "Which license do you want for this projec
 
 [hooks]
 pre = [
-    "fix_rpm_assets.rhai",
+    "fix_assets_naming.rhai",
 ]
