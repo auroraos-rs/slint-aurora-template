@@ -10,4 +10,4 @@
 
 ## Использование шаблона
 
-- `cargo generate --git https://github.com/auroraos-rs/slint_aurora_template`
+- `cargo generate --git https://github.com/auroraos-rs/slint-aurora-template`
