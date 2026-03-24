@@ -1,0 +1,29 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2024"
+description = "{{description}}"
+authors = [ "{{authors}}" ]
+license = "{{license}}"
+build = "build.rs"
+
+[dependencies]
+slint = { version = "1.15.1", default-features = false, features = [
+    "std",
+    "backend-winit-wayland",
+    "renderer-skia",
+    "compat-1-2",
+] }
+
+[build-dependencies]
+slint-build = "1.15.1"
+
+# [profile.release]
+# opt-level = "s"
+# debug = false
+# lto = true
+# strip = true
+
+[patch.crates-io]
+winit = {git="https://github.com/lmaxyz/winit", branch="aurora"}
+glutin = { git = "https://github.com/lmaxyz/glutin", branch = "aurora_device_fix" }

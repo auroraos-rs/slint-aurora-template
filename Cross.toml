@@ -1,0 +1,17 @@
+[target.armv7-unknown-linux-gnueabihf]
+# Алтернативный вариант - использовать кастомный докерфайл
+dockerfile = "./Dockerfile.armv7"
+# pre-build = [
+#     "dpkg --add-architecture $CROSS_DEB_ARCH",
+#     "apt update && apt upgrade -y",
+#     "apt install libwayland-dev:$CROSS_DEB_ARCH libdbus-1-dev:$CROSS_DEB_ARCH libfontconfig1-dev:$CROSS_DEB_ARCH -y",
+# ]
+
+[target.aarch64-unknown-linux-gnu]
+# Алтернативный вариант - использовать кастомный докерфайл
+dockerfile = "./Dockerfile.aarch64"
+# pre-build = [
+#     "dpkg --add-architecture $CROSS_DEB_ARCH",
+#     "apt update && apt upgrade -y",
+#     "apt install libwayland-dev:$CROSS_DEB_ARCH libdbus-1-dev:$CROSS_DEB_ARCH libfontconfig1-dev:$CROSS_DEB_ARCH -y",
+# ]

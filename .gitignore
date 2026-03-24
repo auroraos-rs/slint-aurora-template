@@ -1,0 +1,8 @@
+.sfdk
+.mb2
+
+/target
+/RPMS
+documentation.list
+
+.env

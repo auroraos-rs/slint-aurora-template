@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon={{org_domain}}.{{project-name}}
+Exec=/usr/bin/{{org_domain}}.{{project-name}}
+Name={{project-name}}
+Name[ru]={{project-name}}
+
+[X-Application]
+OrganizationName={{org_domain}}
+ApplicationName={{project-name}}
